@@ -1,0 +1,27 @@
+.keypad {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 350px;
+    height: 400px;
+    padding: 3px;
+}
+
+.textarea {
+    width: 336px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.btns button {
+    text-align: center;
+    width: 31%;
+    margin: 1%;
+    height: 77px;
+    font-size: 30px;
+    font-weight: bold;
+}
