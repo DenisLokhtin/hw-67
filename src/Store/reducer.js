@@ -1,6 +1,7 @@
 const initialState = {
     currentPassword: '',
     password: '4524',
+    inputStyle: 'textarea ',
 };
 
 const reducer = (state = initialState, action) => {
@@ -16,6 +17,10 @@ const reducer = (state = initialState, action) => {
 
     if (action.type === 'CLEAR') {
         return {...state, currentPassword: ''}
+    }
+
+    if (action.type === 'CHANGE') {
+        return {...state, inputStyle: action.payload}
     }
 
     return state;

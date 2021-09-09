@@ -17,6 +17,18 @@
     font-size: 30px;
 }
 
+.success {
+    background: lawngreen;
+}
+
+.wrong {
+    background: #f62727;
+}
+
+.null {
+    background: yellow;
+}
+
 .btns button {
     text-align: center;
     width: 31%;
